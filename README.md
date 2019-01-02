@@ -16,10 +16,11 @@ Arduino code for LINE Simple Beacon work with ESP32
 
 ## Steps
 * Update Hardware ID
-* (Adjust the signal length)[https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/bluetooth/controller_vhci.html?highlight=esp_ble_tx_power_set#_CPPv220esp_ble_tx_power_set20esp_ble_power_type_t17esp_power_level_t]
+* [Adjust the signal length](https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/bluetooth/controller_vhci.html?highlight=esp_ble_tx_power_set#_CPPv220esp_ble_tx_power_set20esp_ble_power_type_t17esp_power_level_t)
 ```
-esp_ble_tx_power_set(ESP_BLE_PWR_TYPE_ADV, XXXX);
+esp_ble_tx_power_set(ESP_BLE_PWR_TYPE_ADV, adjust the power level that you want);
 ```
+* Power level
     * -12dbm ~ 5-10m
     * -9dbm ~ 10-12m
     * -6dbm ~ 13-18m
