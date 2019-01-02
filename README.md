@@ -13,7 +13,9 @@ Arduino code for LINE Simple Beacon work with ESP32
     ```
     * Tools > Boards Manager > search 'esp32' > Install
 * [Issue LINE Simple Beacon Hardware ID](https://admin-official.line.me/beacon/register)
-<img src="https://user-images.githubusercontent.com/30001185/50584877-afe5a900-0ea4-11e9-9130-69c3c893a301.png" width="50%"/>
+<img src="https://user-images.githubusercontent.com/30001185/50584877-afe5a900-0ea4-11e9-9130-69c3c893a301.png" />
+<img src="https://user-images.githubusercontent.com/30001185/50584907-e3283800-0ea4-11e9-8f3f-6645e1797785.png" />
+<img src="https://user-images.githubusercontent.com/30001185/50584909-e7545580-0ea4-11e9-97f2-063cfb1bfd8d.png" />
 
 ## Steps
 * Update Hardware ID
@@ -32,4 +34,5 @@ esp_ble_tx_power_set(ESP_BLE_PWR_TYPE_ADV, adjust the power level that you want)
 
 ## Reference
 * https://github.com/godda/LINE_Simple_Beacon_ESP32
+* https://medium.com/@chawanwitpoolsri/line-beacon-from-esp32-node32-lite-72c0fc7dc646
 * https://engineering.linecorp.com/ja/blog/detail/149/
