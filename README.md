@@ -13,6 +13,7 @@ Arduino code for LINE Simple Beacon work with ESP32
     ```
     * Tools > Boards Manager > search 'esp32' > Install
 * [Issue LINE Simple Beacon Hardware ID](https://admin-official.line.me/beacon/register)
+<img src="https://user-images.githubusercontent.com/30001185/50584877-afe5a900-0ea4-11e9-9130-69c3c893a301.png" width="50%"/>
 
 ## Steps
 * Update Hardware ID
