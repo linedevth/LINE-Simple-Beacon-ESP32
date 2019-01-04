@@ -36,3 +36,4 @@ esp_ble_tx_power_set(ESP_BLE_PWR_TYPE_ADV, adjust the power level that you want)
 * https://github.com/godda/LINE_Simple_Beacon_ESP32
 * https://medium.com/@chawanwitpoolsri/line-beacon-from-esp32-node32-lite-72c0fc7dc646
 * https://engineering.linecorp.com/ja/blog/detail/149/
+* https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/bluetooth/index.html
